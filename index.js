@@ -4,4 +4,4 @@ var http = require('https');
 http.createServer(function (req, res) {
   res.write('Welcome to DevOps Training aws'); //write a response to the client
   res.end(); //end the response
-}).listen(83); //the server object listens on port 80
+}).listen(82); //the server object listens on port 80
